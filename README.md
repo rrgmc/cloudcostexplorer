@@ -19,6 +19,9 @@ are available.
 
 ## Usage
 
+Download a binary from the [Releases](https://github.com/rrgmc/cloudcostexplorer/releases) Github page, or if you have
+a Golang compiler available:
+
 ```shell
 $ go install github.com/rrgmc/cloudcostexplorer/cmd/cloudcostexplorer@latest
 ```
@@ -27,6 +30,12 @@ Create a local `cloudcostexplorer.conf` configuration file based on [cloudcostex
 with the accounts that have access to your cost explorer APIs, and run the `cloudcostexplorer` cli.
 
 It will try to find a `cloudcostexplorer.conf` file in the current directory, and start a local webserver on `http://localhost:3335`.
+
+## Golang library
+
+It can also be used as a Go library, the interfaces are designed to serve this specific UI, but it can probably be
+useful in other use cases. See [cloud.go](https://github.com/rrgmc/cloudcostexplorer/blob/master/cloud.go) to have an
+idea of what it looks like.
 
 ## Author
 
