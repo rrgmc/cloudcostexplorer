@@ -1,4 +1,5 @@
 # cloudcostexplorer
+[![GoDoc](https://godoc.org/github.com/rrgmc/cloudcostexplorer?status.png)](https://godoc.org/github.com/rrgmc/cloudcostexplorer)
 
 `cloudcostexplorer` is a developer-oriented local HTTP UI for the cost explorer APIs of various cloud providers.
 
